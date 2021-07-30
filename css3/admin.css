@@ -1,0 +1,260 @@
+*{
+    font-family: popppins;
+    
+    text-decoration: none;
+}
+body{
+    margin: 3px;
+    
+}
+
+
+div.header{
+    font-family: poppins;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: rgba(100, 179, 199, 0.863);
+}
+
+div.main-page{
+  background-color: linear-gradient(to right ,#1e5799 0%, #3ccdbb 40%, #16c9f6 100%) ;;
+}
+div.header{
+      
+    color: rgb(0, 128, 96);
+}
+div.header h1{
+      font-size: 42px;
+}
+  
+div.header button{
+    border: none;
+    outline: none;
+    background-color: rgb(230, 46, 86);
+    font-weight: 700;
+    font-size: 15px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 2px;
+    padding: 10px 30px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    
+    
+    line-height: 1.4;
+    transition-property: box-shadow;
+    transition-duration: 0.4s;
+}
+
+
+div.header button:hover{
+    box-shadow: 2px 2px 8px black;
+}
+
+.main-div{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.center-div{
+  width: 92%;
+  height: 70vh;
+  background: -webkit-linear-gradient(left, #67b1e2, #43cec2);
+  padding: 20px 0 0 0;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .03);
+  border-radius: 10px;
+
+
+}
+  
+.center-div h1{
+  font-size: 15px;
+  color: #000;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 20px;
+
+}
+.center-div table{
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .03);
+  border-radius: 10px;
+  margin: auto;
+}
+
+.main-div th,td{
+    border: 1px solid #f2f2f2;
+    padding: 8px 30px;
+    text-align: center;
+    color: grey;
+    font-weight: 500;
+
+  }
+
+.main-div th{
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 16px;
+    
+
+  }
+.main-div td{
+    font-size: 14.5px;
+
+  }
+
+  .email-style{
+    font-size: 14px;
+    color: grey;
+    display: inline-block;
+    background: #f2f2f2;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    line-height: 30px;
+    padding: 0 14px;
+  }
+
+  .post-class{
+    text-transform: uppercase;
+  }
+  .fa{
+    font-size: 18px;
+
+  }
+  
+  .fa-trash{
+    color: #ff0000;
+    
+
+  }
+  a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+  
+
+
+
+  }
+  .main-div2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .center-div2{
+    width: 92%;
+    height: 70vh;
+    background: -webkit-linear-gradient(left, #61a9da, #4de4dc);
+    padding: 20px 0 0 0;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .03);
+    border-radius: 10px;
+  
+  
+  }
+    
+  .center-div2 h1{
+    font-size: 15px;
+    color: #000;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+  
+  }
+  .center-div2 table{
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .03);
+    border-radius: 10px;
+    margin: auto;
+  }
+  
+  .main-div2 th,td{
+      border: 1px solid #f2f2f2;
+      padding: 8px 30px;
+      text-align: center;
+      color: grey;
+      font-weight: 500;
+      
+  
+    }
+  
+  .main-div2 th{
+      text-transform: uppercase;
+      font-weight: 550;
+      font-size: 16px;
+
+  
+    }
+  .main-div2 td{
+      font-size: 14.5px;
+  
+    }
+  
+    .email-style{
+      font-size: 14px;
+      color: grey;
+      display: inline-block;
+      background: #f2f2f2;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      line-height: 30px;
+      padding: 0 14px;
+    }
+  
+    .post-class{
+      text-transform: uppercase;
+    }
+    .fa{
+      font-size: 18px;
+  
+    }
+    
+    .fa-trash{
+      color: #ff0000;
+  
+    }
+    
+    a{
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+  
+    
+  
+  
+  
+    }
+  .footer .credit{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: rgba(0, 136, 146, 0.877);
+    width: 70%;
+    margin: 0;
+    padding: 2rem 0;
+    padding-bottom: 1.5rem;
+    border-top: .1rem solid #ccc !important;
+}
+
+.footer .credit span{
+    font-size: 1.6rem;
+    color: rgba(2, 39, 16, 0.938);
+}
+
+
+
