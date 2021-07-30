@@ -1,6 +1,0 @@
-<ifModule authz_core_module>
-Require all denied
-</if Module>
-<IfModule !authz_core_module>
-Deny from all
-</IfModule>
